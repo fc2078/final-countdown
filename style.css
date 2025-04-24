@@ -1,0 +1,30 @@
+body {
+    background-color: #fdf6e3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.countdown-card {
+    background-color: #fff3cd;
+    border: 2px solid #ffc107;
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 600px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #856404;
+}
+
+.countdown-timer {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #333;
+}
