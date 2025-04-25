@@ -1,42 +1,49 @@
 body {
-      background-color: #fdf6e3;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 2rem;
-      min-height: 100vh;
-      text-align: center;
-    }
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #a1c4fd);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
 
-    .countdown-card {
-      background-color: #fff3cd;
-      border: 2px solid #ffc107;
-      border-radius: 20px;
-      padding: 2rem;
-      width: 100%;
-      max-width: 600px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    }
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
 
-    .countdown-title {
-      font-size: 1.75rem;
-      font-weight: bold;
-      color: #856404;
-    }
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  border-radius: .75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
-    .countdown-timer {
-      font-size: 1.2rem;
-      margin-top: 1rem;
-      color: #333;
-    }
+.card h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
 
-    @media (max-width: 576px) {
-      .countdown-title {
-        font-size: 1.4rem;
-      }
+.card p {
+  font-size: 1.1rem;
+  margin-top: .5rem;
+}
 
-      .countdown-timer {
-        font-size: 1rem;
-      }
-    }
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: .9rem;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+#next-day-off {
+  color: #0d8e24;
+}
+
+#ndo {
+  color: #287ed3c4
+}
