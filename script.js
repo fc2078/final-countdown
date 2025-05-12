@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const extraOff = [
     '2025-05-26',
     '2025-06-05',
+    '2025-06-10',
+    '2025-06-11'
   ];
   for (let d = 17; d <= 25; d++) {
     extraOff.push(`2025-06-${String(d).padStart(2, '0')}`);
